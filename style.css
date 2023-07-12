@@ -1,0 +1,116 @@
+body {
+  background-color: #c7b6be;
+  font-family: "Markazi text", serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: rgb(73, 72, 72);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 25px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: larger;
+  font-family: "Varela", sans-serif;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+nav a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #ff4372;
+}
+
+/* mouse over link */
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#bannerr {
+  width: 90%;
+  height: 80%;
+  display: block;
+  margin-left: 4rem;
+  margin-right: 5rem;
+  border: 1px solid black;
+  box-shadow: 10px 10px 18px #888888;
+  margin-top: 45px;
+}
+
+#pro {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #74609c;
+  margin-bottom: 45px;
+}
+
+.imgg {
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  display: block;
+  width: 80%;
+  box-shadow: 10px 10px 18px #888888;
+}
+.photo {
+  width: 50%;
+  margin-left: 40%;
+  margin-right: auto;
+  font-size: 150%;
+  color: #8931ee;
+  font-family: "Dancing Script", cursive;
+}
+.photo2,
+.photo3 {
+  margin-left: 45%;
+}
+.photo:hover {
+  color: #aa4760;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+  margin-left: 40px;
+  font-family: "Varela", sans-serif;
+}
+#copy {
+  text-align: right;
+  margin-right: 5%;
+}
+
+footer img {
+  width: 12.5%;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
